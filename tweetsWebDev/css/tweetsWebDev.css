@@ -7,7 +7,18 @@ h1 {
   font-family: 'Roboto', sans-serif;
 }
 
-.tweet {
+.tweets {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+
+.tweet1 {
+  border:1px solid black;
+  padding: 10px;
+}
+
+.tweet2 {
   border:1px solid black;
   padding: 10px;
 }
