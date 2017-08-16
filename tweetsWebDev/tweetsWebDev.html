@@ -1,17 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+
   <title>WebDev uniandes tweets</title>
   <meta charset="utf-8">
-  <link href="css/tweetsWebDev.css" type="text/css" rel="stylesheet">
+
+  <!-- To ensure proper rendering and touching zooming in mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <!-- Title font -->
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link href="css/tweetsWebDev.css" type="text/css" rel="stylesheet">
+
 </head>
+
 <body>
 
-  <h1>WebDev uniandes tweets</h1>
-  
+  <header>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-tweets">
+            <span class="sr-only">Show / Hide Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">WebDev Uniandes tweets</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Jumbotron will be placed here -->
+
+  <section class="main container"></section>
+
+  <footer></footer>
+
+  <div class="jumbotron">
+    <h1>WebDev uniandes tweets</h1>
+  </div>
+
   <div class="tweets">
 
     <div class="tweet1">
@@ -34,9 +69,14 @@
       <button class="btn danger">-1</button>
     </div>
 
+    <p></p>
+
+    <button class="btn btn-primary">Update</button>
+
   </div>
 
   <script>
+
   var firstTweet = {"contributors": null, "truncated": true, "text": "@uniandes #WebDev El 47% de las im\u00e1genes encontradas en p\u00e1ginas web aleatorias no incluyen atributo alt o est\u00e1 vac\u00ed\u2026 https://t.co/oMEeWUBCF5", "is_quote_status": false, "in_reply_to_status_id": null, "id": 895624835338031108, "favorite_count": 0, "entities": {"symbols": [], "user_mentions": [{"id": 44151017, "indices": [0, 9], "id_str": "44151017", "screen_name": "Uniandes", "name": "Uniandes"}], "hashtags": [{"indices": [10, 17], "text": "WebDev"}], "urls": [{"url": "https://t.co/oMEeWUBCF5", "indices": [117, 140], "expanded_url": "https://twitter.com/i/web/status/895624835338031108", "display_url": "twitter.com/i/web/status/8\u2026"}]}, "retweeted": false, "coordinates": null, "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>", "in_reply_to_screen_name": "Uniandes", "in_reply_to_user_id": 44151017, "retweet_count": 0, "id_str": "895624835338031108", "favorited": false, "user": {"follow_request_sent": false, "has_extended_profile": false, "profile_use_background_image": true, "default_profile_image": false, "id": 187031069, "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme5/bg.gif", "verified": false, "translator_type": "none", "profile_text_color": "3E4415", "profile_image_url_https": "https://pbs.twimg.com/profile_images/3681783683/de4cccca5aa895e5a6d2fa0a67cb4604_normal.jpeg", "profile_sidebar_fill_color": "99CC33", "entities": {"description": {"urls": []}}, "followers_count": 15, "profile_sidebar_border_color": "829D5E", "id_str": "187031069", "profile_background_color": "352726", "listed_count": 0, "is_translation_enabled": false, "utc_offset": -14400, "statuses_count": 4, "description": "@EconomiaUAndes.", "friends_count": 148, "location": "", "profile_link_color": "D02B55", "profile_image_url": "http://pbs.twimg.com/profile_images/3681783683/de4cccca5aa895e5a6d2fa0a67cb4604_normal.jpeg", "following": false, "geo_enabled": false, "profile_background_image_url": "http://abs.twimg.com/images/themes/theme5/bg.gif", "screen_name": "DianaCSolano", "lang": "en", "profile_background_tile": false, "favourites_count": 1, "name": "Diana Solano", "notifications": false, "url": null, "created_at": "Sun Sep 05 02:15:13 +0000 2010", "contributors_enabled": false, "time_zone": "Eastern Time (US & Canada)", "protected": false, "default_profile": false, "is_translator": false}, "geo": null, "in_reply_to_user_id_str": "44151017", "possibly_sensitive": false, "lang": "es", "created_at": "Thu Aug 10 12:36:15 +0000 2017", "in_reply_to_status_id_str": null, "place": null, "metadata": {"iso_language_code": "es", "result_type": "recent"}}
 
   var secondTweet = {"contributors": null, "truncated": false, "text": "Con CSS puedes tener mejores resultados que con tags como &lt;strong&gt;!  #WebDev  @Uniandes", "is_quote_status": false, "in_reply_to_status_id": null, "id": 895619174621487104, "favorite_count": 0, "entities": {"symbols": [], "user_mentions": [{"id": 44151017, "indices": [84, 93], "id_str": "44151017", "screen_name": "Uniandes", "name": "Uniandes"}], "hashtags": [{"indices": [75, 82], "text": "WebDev"}], "urls": []}, "retweeted": false, "coordinates": null, "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>", "in_reply_to_screen_name": null, "in_reply_to_user_id": null, "retweet_count": 0, "id_str": "895619174621487104", "favorited": false, "user": {"follow_request_sent": false, "has_extended_profile": true, "profile_use_background_image": true, "default_profile_image": true, "id": 895119480900268032, "profile_background_image_url_https": null, "verified": false, "translator_type": "none", "profile_text_color": "333333", "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png", "profile_sidebar_fill_color": "DDEEF6", "entities": {"description": {"urls": []}}, "followers_count": 0, "profile_sidebar_border_color": "C0DEED", "id_str": "895119480900268032", "profile_background_color": "F5F8FA", "listed_count": 0, "is_translation_enabled": false, "utc_offset": -25200, "statuses_count": 1, "description": "Web development", "friends_count": 0, "location": "", "profile_link_color": "1DA1F2", "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png", "following": false, "geo_enabled": false, "profile_background_image_url": null, "screen_name": "s_rojas19", "lang": "en", "profile_background_tile": false, "favourites_count": 0, "name": "Santiago Rojas", "notifications": false, "url": null, "created_at": "Wed Aug 09 03:08:09 +0000 2017", "contributors_enabled": false, "time_zone": "Pacific Time (US & Canada)", "protected": false, "default_profile": true, "is_translator": false}, "geo": null, "in_reply_to_user_id_str": null, "lang": "es", "created_at": "Thu Aug 10 12:13:45 +0000 2017", "in_reply_to_status_id_str": null, "place": null, "metadata": {"iso_language_code": "es", "result_type": "recent"}}
@@ -50,6 +90,12 @@
   document.getElementById("date2").innerHTML = secondTweet.created_at
 
   </script>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 </html>
