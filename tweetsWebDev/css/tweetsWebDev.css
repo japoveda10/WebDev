@@ -3,10 +3,21 @@ h1 {
   font-family: 'Roboto', sans-serif;
 }
 
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
 .tweets {
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */
-  column-count: 1;
+  column-count: 2;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
 
 .tweet1 {
@@ -34,3 +45,11 @@ h1 {
 
 .danger {background-color: #f44336;}
 .danger:hover {background: #da190b;}
+
+#updateBtn {
+  float: right;
+}
+
+#footer {
+  text-align: center;
+}

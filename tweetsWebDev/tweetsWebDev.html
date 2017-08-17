@@ -39,50 +39,72 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                Tweets <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">HTML tweets</a></li>
+                <li><a href="#">CSS tweets</a></li>
+                <li><a href="#">Bootstrap tweets</a></li>
+              </ul>
+            </li>
             <li><a href="#">Contact us</a></li>
           </ul>
+
+          <form action="" class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </form>
         </div>
       </div>
     </nav>
   </header>
 
-  <!-- Jumbotron will be placed here -->
-
-  <section class="main container"></section>
-
-  <footer></footer>
-
-  <div class="jumbotron">
-    <h1>WebDev uniandes tweets</h1>
-  </div>
-
-  <div class="tweets">
-
-    <div class="tweet1">
-      <p id="name1">User name</p>
-      <p id="tweet1">Tweet</p>
-      <p id="date1">Tweet date</p>
-      <button class="btn success">+2</button>
-      <button class="btn info">+1</button>
-      <button class="btn danger">-1</button>
+  <section class="jumbotron">
+    <div class="container">
+      <h1>WebDev Uniandes class tweets</h1>
+      <p>Tweets written by WebDev studens at Universidad de los Andes</p>
     </div>
+  </section>
 
-    <p></p>
+  <section class="main container">
+    <div class="tweets">
 
-    <div class="tweet2">
-      <p id="name2">User name</p>
-      <p id="tweet2">Tweet</p>
-      <p id="date2">Tweet date</p>
-      <button class="btn success">+2</button>
-      <button class="btn info">+1</button>
-      <button class="btn danger">-1</button>
+      <div class="tweet1">
+        <p id="name1">User name</p>
+        <p id="tweet1">Tweet</p>
+        <p id="date1">Tweet date</p>
+        <button class="btn success">+2</button>
+        <button class="btn info">+1</button>
+        <button class="btn danger">-1</button>
+      </div>
+
+      <p></p>
+
+      <div class="tweet2">
+        <p id="name2">User name</p>
+        <p id="tweet2">Tweet</p>
+        <p id="date2">Tweet date</p>
+        <button class="btn success">+2</button>
+        <button class="btn info">+1</button>
+        <button class="btn danger">-1</button>
+      </div>
+
+      <p></p>
+
+      <button id="updateBtn" class="btn btn-primary">Update</button>
+
     </div>
+  </section>
 
-    <p></p>
-
-    <button class="btn btn-primary">Update</button>
-
-  </div>
+  <footer id="footer">
+    JAPG
+  </footer>
 
   <script>
 
