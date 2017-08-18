@@ -12,9 +12,9 @@ h1 {
 }
 
 .tweets {
-  -webkit-column-count: 1; /* Chrome, Safari, Opera */
-  -moz-column-count: 1; /* Firefox */
-  column-count: 1;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
@@ -48,4 +48,6 @@ h1 {
 
 #footer {
   text-align: center;
+  background-color: #eee;
+  padding: 10px;
 }
