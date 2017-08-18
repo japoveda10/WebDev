@@ -12,22 +12,18 @@ h1 {
 }
 
 .tweets {
-  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-  -moz-column-count: 2; /* Firefox */
-  column-count: 2;
+  -webkit-column-count: 1; /* Chrome, Safari, Opera */
+  -moz-column-count: 1; /* Firefox */
+  column-count: 1;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
 }
 
-.tweet1 {
+.tweet {
   border:1px solid black;
   padding: 10px;
-}
-
-.tweet2 {
-  border:1px solid black;
-  padding: 10px;
+  margin-bottom: 50px;
 }
 
 .btn {
