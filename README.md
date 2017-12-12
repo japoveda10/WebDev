@@ -12,5 +12,5 @@ In this repository I publish my Web Development course projects
   WebDev project 1. Want to learn more about tennis and practice your spanish? This website is for you. <br>
   <b>Repository:</b> https://github.com/japoveda10/primerservicio
 4. [mygithub](http://mygithub-webapp.herokuapp.com/) <br>
-  WebDev exam 1. <br>
+  WebDev exam 1. Shows a Github user followers <br>
   <b>Repository:</b> https://github.com/japoveda10/mygithub
